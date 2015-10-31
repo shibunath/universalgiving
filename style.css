@@ -1,0 +1,48 @@
+
+
+.comment
+{
+	color:blue;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bolder;
+	border-style: solid;
+	border-color: green;
+	background-color: orange;
+	border-width: 15px;
+	width: 800px;
+
+}
+
+.button
+{
+font-weight: bolder;
+background-color: orange;
+	background-image: url('button.jpg');
+	border-width: 2px;
+
+}
+.black
+{
+	background-color: lightblue;
+	margin:auto;
+	width: 500px;
+	margin-top:1px;
+	font-weight: bolder;
+	height: 140px;
+}
+
+.universe
+{	
+	color: black;
+	margin:auto;
+}
+.heading
+{
+	color:green;
+	background-color: white;
+	width:500px;
+	color:black;
+	
+}
+
