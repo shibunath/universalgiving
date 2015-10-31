@@ -4,7 +4,7 @@ BMI=new Mongo.Collection('BMI');
 if (Meteor.isClient) {
   // counter starts at 0
 var height,weight,bmi,createdAt;
-  Session.setDefault('counter', 0);
+
 
 
 
@@ -62,12 +62,7 @@ currentDate:function()
 });
 
 
-  Template.hello.events({
-    'click button': function () {
-      // increment the counter when button is clicked
-      Session.set('counter', Session.get('counter') + 1);
-    }
-  });
+ 
 
   Template.body.events({
 
